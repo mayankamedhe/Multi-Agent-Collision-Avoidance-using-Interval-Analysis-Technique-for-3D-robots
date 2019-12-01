@@ -77,7 +77,7 @@ def recursive_sphere_intersect(s1, s2, dr=0.1):
 	return 1
 
 
-def free_interval():
+# def free_interval():
 	
 
 	
