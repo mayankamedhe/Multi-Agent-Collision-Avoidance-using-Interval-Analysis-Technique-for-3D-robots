@@ -1,0 +1,48 @@
+CASE 1: l1, l2 of I coincide with I1
+origin of I = [0, 0] Interval = [[0, 90], [1, 2]]
+origin of I1 = [0, 0] Interval = [[0, 90], [1, 2]]
+s1 = 1 s2 = 1 s3 = 1 s4 = 1
+q = 1
+tI1_PI = 1
+eI = 1
+*************************************
+CASE 2: l1 of I coincide with I1
+origin of I = [0, 0] Interval = [[0, 90], [1, 2]]
+origin of I1 = [3, 0] Interval = [[180, 270], [1, 2]]
+s1 = 0 s2 = 0 s3 = 1 s4 = 0
+q = 0
+tI1_PI = 0
+eI = 1
+*************************************
+CASE 3: l2 of I coincide with I1
+origin of I = [0, 0] Interval = [[0, 90], [1, 2]]
+origin of I1 = [0, -1] Interval = [[60, 90], [2, 3]]
+s1 = 0 s2 = 0 s3 = 0 s4 = 1
+q = 0
+tI1_PI = 0
+eI = 1
+*************************************
+CASE 4a: 
+origin of I = [0, 0] Interval = [[0, 90], [1, 3]]
+origin of I1 = [3, 1] Interval = [[180, 190], [1, 1.1]]
+s1 = 0 s2 = 0 s3 = 0 s4 = 0
+q = 1
+tI1_PI = 0
+eI = 0
+*************************************
+CASE 4b: 
+origin of I = [0, 0] Interval = [[0, 90], [1, 2]]
+origin of I1 = [4, 4] Interval = [[180, 270], [1, 2]]
+s1 = 0 s2 = 0 s3 = 0 s4 = 0
+q = 1
+tI1_PI = 0
+eI = 0
+*************************************
+CASE 5: 
+origin of I = [0, 0] Interval = [[0, 90], [1, 2]]
+origin of I1 = [3, 0] Interval = [[90, 180], [1, 1.1]]
+s1 = 0 s2 = 0 s3 = 0 s4 = 0
+q = 1
+tI1_PI = 0
+eI = 0
+*************************************
